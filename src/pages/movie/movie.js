@@ -28,7 +28,7 @@ export default function Movie(){
 
 function RenderMovie(props) {
 
-    const { movie: { title, backdrop_path, poster_path } } = props;
+    const { movie: { backdrop_path, poster_path } } = props;
 
     const backdropPath = `https://image.tmdb.org/t/p/original/${backdrop_path}`;
     
