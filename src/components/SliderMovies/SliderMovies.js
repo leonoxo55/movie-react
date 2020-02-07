@@ -28,8 +28,7 @@ function Movies(props) {
     movie: { id, backdrop_path, title, overview }
   } = props;
   const backdropPath = `https://image.tmdb.org/t/p/original${backdrop_path}`;
-  console.log(backdropPath);
-  console.log(props);
+  
 
   return (
     <div

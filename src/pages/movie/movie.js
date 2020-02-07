@@ -66,6 +66,7 @@ function MovieInfo(props){
     const videoMovie = useFetch(
         `${url_API}/movie/${id}/videos?api_key=${API}&lenguage=es-ES`
     );
+
     const openModal = () => setIsVisibleModal(true);
     const closeModal = () => setIsVisibleModal(false);
 
@@ -78,7 +79,7 @@ function MovieInfo(props){
                         <ModalVideo videoKey={videoMovie.result.results[0].key} 
                                     videoPlatform={videoMovie.result.results[0].site}
                                     isOpen={isVisibleModal} 
-                                    close={closeModal}    />
+                                    close={closeModal} />
                     </>
                 )
         }
