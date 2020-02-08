@@ -9109,7 +9109,7 @@ rc-notification@~3.3.1:
     rc-animate "2.x"
     rc-util "^4.0.4"
 
-rc-pagination@~1.20.11:
+rc-pagination@^1.20.13, rc-pagination@~1.20.11:
   version "1.20.13"
   resolved "https://registry.yarnpkg.com/rc-pagination/-/rc-pagination-1.20.13.tgz#aca9dc020e475f77c5335659f7fe5d7cca2f2592"
   integrity sha512-oocyyzx0pye957e3iARFg377hafdUc3oC13faGgmopGX/A8rn7tXCdOwVIJthhI6dHVfAcFLgnYQAlcpGXh+Uw==

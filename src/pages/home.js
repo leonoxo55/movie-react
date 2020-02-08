@@ -25,12 +25,12 @@ export default function Home() {
       <SliderMovies movies={NewMovies} />
       <Row>
         <Col span={12}>
-          <MovieList movies={popularMovies} title="Peliculas Populares" />
+          <MovieList movies={popularMovies} title="Películas Populares" />
         </Col>
         <Col span={12}>
           <MovieList
             movies={topRatedMovies}
-            title="Top Mejores Peliculas Puntuadas"
+            title="Top Mejores Películas Puntuadas"
           />
         </Col>
       </Row>
